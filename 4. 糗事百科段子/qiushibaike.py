@@ -6,8 +6,7 @@
 '''
     PS: 书上给的代码有误，因为匿名用户的存在（有兴趣的可以用书上的代码运行一下，再和网页的结果匹配下）
     匿名用户应该是没有性别和等级的，但是仔细看源文件，会发现匿名用户后有注释掉的性别和等级(应该是假的，性别都是男，
-年龄都是32)，如果直接用for name, level, sex, content in zip(names, levels, sexs, contents)的方式，就会导
-致信息匹配错误，因此使用了while循环
+年龄都是32)
 '''
 
 import re
@@ -36,18 +35,13 @@ def get_info(url0, f1):
     contents = re.findall('<div class="content">.*?<span>(.*?)</span>.*?</div>', res.text, re.S)
     laughs = re.findall('<span class="stats-vote"><i class="number">(\d+)</i>', res.text, re.S)
     comments = re.findall('<span class="stats-comments">.*?<i class="number">(\d+)</i>', res.text, re.S)
-    i = len(names)
-    j = k = 0
-    while j < i:
-        if names[j] == '匿名用户':
-            f1.write(names[j] + '\n' + contents[j].strip().replace('<br/>', '\n') + '\n' + laughs[j] + '\t' +
-                     comments[j] + '\n\n')
+    for info, name, sex, level, content, laugh, comment in zip(infos, names, sexs, levels, contents, laughs, comments):
+        if name == '匿名用户':
+            f1.write(name + '\n' + content.strip().replace('<br/>', '\n') + '\n' + laugh + '\t' + comment + '\n\n')
         else:
-            f1.write('https://www.qiushibaike.com/users/' + infos[k] + '/\n' + names[j].strip() + '\t' + judge(
-                sexs[j]) + '\t' + levels[j] + '\n' + contents[j].strip().replace('<br/>', '\n') + '\n' + laughs[
-                         j] + '\t' + comments[j] + '\n\n')
-            k = k + 1
-        j = j + 1
+            f1.write('https://www.qiushibaike.com/users/' + info + '/\n' + name.strip() + '\t' + judge(
+                sex) + '\t' + level + '\n' + content.strip().replace('<br/>',
+                                                                     '\n') + '\n' + laugh + '\t' + comment + '\n\n')
 
 
 if __name__ == '__main__':
