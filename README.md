@@ -10,4 +10,5 @@ PS: 利用爬虫学习python, 顺便了解网页和http，学习来源：《[从
 |  2   | [酷狗top500](https://github.com/lspl/crawler/tree/master/2.%20%E9%85%B7%E7%8B%97top500) |      requests， BeautifulSoup      |
 |  3   | [斗破苍穹全文](https://github.com/lspl/crawler/tree/master/3.%20%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9%E5%85%A8%E6%96%87) |      requests， BeautifulSoup      |
 |  4   | [糗事百科段子](https://github.com/lspl/crawler/tree/master/4.%20%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91%E6%AE%B5%E5%AD%90) | requests, BeautifulSoup, re, xpath |
+|  5   | [豆瓣读书top250](https://github.com/lspl/crawler/tree/master/5.%20%E8%B1%86%E7%93%A3%E8%AF%BB%E4%B9%A6top250) |             xpath, re              |
 
