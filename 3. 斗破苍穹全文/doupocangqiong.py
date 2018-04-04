@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/3/26 20:34
 # 爬取斗破苍穹小说全文：http://www.doupoxs.com/doupocangqiong/
-# CSS selector由firefox复制得到
+# selector由firefox复制得到
 # 爬虫获取的数据保存在和当前文件同一目录的result.txt中
 
 

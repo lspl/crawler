@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/3/25 21:46
 # 爬取酷狗top500信息： http://www.kugou.com/yy/rank/home/1-8888.html?from=rank
-# CSS selector 由 chrome得到
+# selector 由 chrome得到
 # 爬虫获取的数据保存在和当前文件同一目录的temp.txt中
 
 import os

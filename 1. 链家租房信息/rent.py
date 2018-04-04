@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/3/25 17:03
 # 爬取租房信息 https://bj.lianjia.com/zufang/rs%E7%9F%B3%E9%97%A8/
-# CSS selector的信息来自chrome
+# selector的信息来自chrome
 # 爬虫获取的数据保存在和当前文件同一目录的temp.txt中
 
 import os
