@@ -45,10 +45,7 @@ def get_info(url0, f1):
 
 
 if __name__ == '__main__':
-    f0 = open(os.path.abspath('.') + '\\temp.txt', 'w')
-    f0.truncate()
-    f0.close()
-    f = open(os.path.abspath('.') + '\\temp.txt', 'a', encoding='utf-8')
+    f = open(os.path.abspath('.') + '\\temp.txt', 'w', encoding='utf-8')
     urls = ['https://www.qiushibaike.com/text/page/{}/'.format(str(i)) for i in range(1, 14)]
     for url in urls:
         get_info(url, f)
