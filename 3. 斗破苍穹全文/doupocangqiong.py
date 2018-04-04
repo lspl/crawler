@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/3/26 20:34
 # 爬取斗破苍穹小说全文：http://www.doupoxs.com/doupocangqiong/
-# selector由firefox复制得到
+# CSS selector由firefox复制得到
 # 爬虫获取的数据保存在和当前文件同一目录的result.txt中
 
 
@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 
 old_file = os.path.abspath('') + '\\temp.txt'
 new_file = os.path.abspath('') + '\\result.txt'
-f = open(old_file, 'a', encoding='utf-8')
+f = open(old_file, 'w', encoding='utf-8')
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36'
                   ' (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36'
@@ -40,10 +40,7 @@ def get_info(url0):
 
 
 if __name__ == '__main__':
-    f0 = open(old_file, 'w')
-    f0.truncate()
-    f0.close()
-    urls = ['http://www.doupoxs.com/doupocangqiong/{}.html'.format(str(i)) for i in range(1, 1665)]
+    urls = ['http://www.doupoxs.com/doupocangqiong/{}.html'.format(str(i)) for i in range(1, 1666)]
     for url in urls:
         get_info(url)
         time.sleep(1)

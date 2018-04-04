@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/3/25 17:03
 # 爬取租房信息 https://bj.lianjia.com/zufang/rs%E7%9F%B3%E9%97%A8/
-# selector的信息来自chrome
+# CSS selector的信息来自chrome
 # 爬虫获取的数据保存在和当前文件同一目录的temp.txt中
 
 import os
@@ -14,7 +14,7 @@ headers = {
                   ' (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36'
 }
 # os.path.abspath('.')用于获取当前文件所在的目录
-f = open(os.path.abspath('.') + '\\temp.txt', 'a', encoding='utf-8')
+f = open(os.path.abspath('.') + '\\temp.txt', 'w', encoding='utf-8')
 
 
 def get_info(url0):
@@ -43,15 +43,10 @@ def get_info(url0):
 
 
 if __name__ == '__main__':
-    # 先清空原来的文件
-    f0 = open(os.path.abspath('.') + '\\temp.txt', 'w')
-    f0.truncate()
-    f0.close()
-
     urls = ['https://bj.lianjia.com/zufang/rs%E7%9F%B3%E9%97%A8/',
             'https://bj.lianjia.com/zufang/pg2rs%E7%9F%B3%E9%97%A8/',
             'https://bj.lianjia.com/zufang/pg3rs%E7%9F%B3%E9%97%A8/',
             'https://bj.lianjia.com/zufang/pg4rs%E7%9F%B3%E9%97%A8/']
     for url in urls:
         get_info(url)
-        time.sleep(2)
+        time.sleep(1)
