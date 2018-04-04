@@ -4,7 +4,6 @@
 # CSS selector 由 chrome得到
 # 爬虫获取的数据保存在和当前文件同一目录的temp.txt中
 
-import os
 import requests
 from bs4 import BeautifulSoup
 
@@ -12,7 +11,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36'
                   ' (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36'
 }
-f = open(os.path.abspath('.') + '\\temp.txt', 'w', encoding='utf-8')
+f = open('temp.txt', 'w', encoding='utf-8')
 
 
 def get_info(url0):

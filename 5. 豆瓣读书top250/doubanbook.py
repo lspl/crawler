@@ -5,7 +5,6 @@
 
 import csv
 import re
-import os
 import requests
 import time
 from lxml import etree
@@ -16,7 +15,7 @@ headers = {
 }
 
 if __name__ == '__main__':
-    fp = open(os.path.abspath('.') + "\\temp.csv", 'w+', encoding='utf-8', newline='')
+    fp = open("temp.csv", 'w+', encoding='utf-8', newline='')
     writer = csv.writer(fp)
     writer.writerow(('name', 'url', 'original_name', 'country', 'author', 'translator', 'publisher', 'date', 'price',
                      'rate', 'comments', 'review'))

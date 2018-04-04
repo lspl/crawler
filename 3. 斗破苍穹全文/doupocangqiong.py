@@ -14,13 +14,12 @@ PS:
 打印当前爬虫进度。
 '''
 
-import os
 import time
 import requests
 from bs4 import BeautifulSoup
 
-old_file = os.path.abspath('') + '\\temp.txt'
-new_file = os.path.abspath('') + '\\result.txt'
+old_file = 'temp.txt'
+new_file = 'result.txt'
 f = open(old_file, 'w', encoding='utf-8')
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36'
