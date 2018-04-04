@@ -26,6 +26,7 @@ if __name__ == '__main__':
         res = requests.get(url0, headers=headers)
         res.encoding = 'utf-8'
         selector = etree.HTML(res.text)
+        # 寻找循环点时，先抓大，后抓小，“寻找循环点”
         infos = selector.xpath('//tr[@class="item"]')
         for info in infos:
             name = info.xpath('td[2]/div/a/text()')[0].strip()
