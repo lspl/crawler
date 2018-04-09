@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # 2018/4/8 19:49
 # 获取糗事百科网用户地址信息
+# 程序运行时间参考：4606s
 # excel数据透视图的分类计数可以参考 https://jingyan.baidu.com/article/359911f5b15b5457ff030650.html
 
 import requests
@@ -63,9 +64,3 @@ if __name__ == '__main__':
     fp.close()
     t2 = time.time()
     print('total time:', t2 - t1)
-
-
-
-
-
-

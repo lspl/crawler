@@ -44,7 +44,3 @@ if __name__ == '__main__':
                 # 网速越快，图片保存的速度也越快
                 save_photo(translate_content, img)
                 time.sleep(1)
-
-
-
-
