@@ -12,7 +12,7 @@ import os
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
 }
-path = os.path.expanduser('~') + '\\Desktop\\webmagic\\pic\\'
+path = os.path.expanduser('~') + '\\Desktop\\pic\\'
 
 
 # 输入的中文翻译后会生成的词会成为目录，相应的图片会放入其中
