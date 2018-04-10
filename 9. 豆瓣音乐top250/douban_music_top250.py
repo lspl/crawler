@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 # 2018/4/10 9:03
 # 爬取豆瓣音乐top250的数据，包括：歌名，表演者，流派，发行时间，出版者和评分
-# 运行参考时间：412s
+
+'''
+    之所以选用正则表达式，主要是因为歌手的信息格式不一致。
+    比如https://music.douban.com/subject/6064884/ https://music.douban.com/subject/4060882/
+    运行参考时间：412s
+'''
 
 import requests
 import pymongo
