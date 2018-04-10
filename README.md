@@ -15,4 +15,5 @@ PS: 利用爬虫学习python, 顺便了解网页和http，学习来源：《[从
 |  7   | [爬取pexels图片](https://github.com/lspl/crawler/tree/master/7.%20%E7%88%AC%E5%8F%96pexels%E5%9B%BE%E7%89%87) |          xpath           |  ★★    | googletrans |
 | 8 | [糗事百科用户地址分布](https://github.com/lspl/crawler/tree/master/8.%20%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91%E7%94%A8%E6%88%B7%E5%9C%B0%E5%9D%80%E5%88%86%E5%B8%83) | xpath | ★★ |  |
 | 9 | [豆瓣音乐top250](https://github.com/lspl/crawler/tree/master/9.%20%E8%B1%86%E7%93%A3%E9%9F%B3%E4%B9%90top250) | re | ★ | pymongo |
+| 10 | [豆瓣电影top250](https://github.com/lspl/crawler/tree/master/10.%20%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1top250) | re | ★ | pymysql |
 
