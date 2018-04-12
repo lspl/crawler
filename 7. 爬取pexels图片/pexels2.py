@@ -36,7 +36,7 @@ if __name__ == '__main__':
         else:
             translate_content = translator.translate(search_content, 'en').text
             print(translate_content)
-            # 网页链接的获得参考：https://www.jianshu.com/p/cb7207038bd1
+            # 网页链接的获得参考：https://www.jianshu.com/p/cb7207038bd1，也就是逆向工程方法
             # 每个url可以得到15张图片，100个url就是1500张图片
             urls = ['https://www.pexels.com/search/' + translate_content + '/?page={}'.format(str(i)) for i in range(0, 100)]
             for url in urls:
