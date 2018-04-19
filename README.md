@@ -17,5 +17,5 @@ PS: 利用爬虫学习python, 顺便了解网页和http，学习来源：《[从
 | 9 | [豆瓣音乐top250](https://github.com/lspl/crawler/tree/master/9.%20%E8%B1%86%E7%93%A3%E9%9F%B3%E4%B9%90top250) | re | ★ | pymongo |
 | 10 | [豆瓣电影top250](https://github.com/lspl/crawler/tree/master/10.%20%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1top250) | re | ★ | pymysql |
 | 11 | [多进程爬虫-简书首页投稿摘要](https://github.com/lspl/crawler/tree/master/11.%20%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%88%AC%E8%99%AB-%E7%AE%80%E4%B9%A6%E9%A6%96%E9%A1%B5%E6%8A%95%E7%A8%BF%E6%91%98%E8%A6%81) | xpath | ★ | multiprocessing |
-| 12 | 多进程爬虫-简书7日热门 | xpath, re | ★★ | multiprocessing, json |
+| 12 | [多进程爬虫-简书7日热门](https://github.com/lspl/crawler/tree/master/12.%20%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%88%AC%E8%99%AB-%E7%AE%80%E4%B9%A67%E6%97%A5%E7%83%AD%E9%97%A8) | xpath, re | ★★ | multiprocessing, json |
 
