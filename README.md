@@ -20,4 +20,5 @@ PS: 利用爬虫学习python, 顺便了解网页和http，学习来源：《[从
 | 12 | [多进程爬虫-简书7日热门](https://github.com/lspl/crawler/tree/master/12.%20%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%88%AC%E8%99%AB-%E7%AE%80%E4%B9%A67%E6%97%A5%E7%83%AD%E9%97%A8) | xpath, re | ★★ | multiprocessing, json |
 | 13 | [使用selenium爬取淘宝商品信息](https://github.com/lspl/crawler/tree/master/13.%20%E4%BD%BF%E7%94%A8selenium%E7%88%AC%E5%8F%96%E6%B7%98%E5%AE%9D%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF) | xpath，selenium | ★★ | pymongo |
 | 14 | [使用scrapy爬取简书专题信息](https://github.com/lspl/crawler/tree/master/14.%20%E4%BD%BF%E7%94%A8scrapy%E7%88%AC%E5%8F%96%E7%AE%80%E4%B9%A6%E4%B8%93%E9%A2%98%E4%BF%A1%E6%81%AF/jianshu_zhuanti) | scrapy | ★ |  |
+| 15 | [scrapy爬取简书“IT·互联网”专题文章信息](https://github.com/lspl/crawler/tree/master/15.%20%E4%BD%BF%E7%94%A8scrapy%E7%88%AC%E5%8F%96%E7%AE%80%E4%B9%A6%E2%80%9CIT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91%E2%80%9D%E4%B8%93%E9%A2%98%E6%96%87%E7%AB%A0%E4%BF%A1%E6%81%AF/jianshuit) | scrapy | ★ |pymysql |
 
