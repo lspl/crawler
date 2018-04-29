@@ -23,3 +23,4 @@ PS: 利用爬虫学习python, 顺便了解网页和http，学习来源：《[从
 | 15 | [scrapy爬取简书“IT·互联网”专题文章信息](https://github.com/lspl/crawler/tree/master/15.%20%E4%BD%BF%E7%94%A8scrapy%E7%88%AC%E5%8F%96%E7%AE%80%E4%B9%A6%E2%80%9CIT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91%E2%80%9D%E4%B8%93%E9%A2%98%E6%96%87%E7%AB%A0%E4%BF%A1%E6%81%AF/jianshuit) | scrapy | ★ |pymysql |
 | 16 | [scrapy爬取简书网作者信息](https://github.com/lspl/crawler/tree/master/16.%20scrapy%E7%88%AC%E5%8F%96%E7%AE%80%E4%B9%A6%E7%BD%91%E4%BD%9C%E8%80%85%E4%BF%A1%E6%81%AF/jianshu_author) | scrapy | ★ | pymongo |
 
+总体来说，书还是很不错的，简单易懂。不过有些代码已经无法运行了，不知道是不是由于被作者写进教材后某些网站了升级了反爬。
